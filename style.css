@@ -44,3 +44,29 @@ button {
 button:hover {
     opacity: 0.8;
 }
+
+
+/* ========== Puhelimet jippiii ========== */
+@media (max-width: 768px) {
+    label {
+        font-size: 20px;   
+    }
+
+    input, textarea {
+        width: 90%;       
+        font-size: 16px;   
+    }
+
+    button {
+        padding: 8px 16px; /*  pienempi nappi */
+        margin: 5px 0;     /* napit alle*/
+        width: 80%;        /* napit leveys */
+    }
+
+    .btn-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
