@@ -63,16 +63,17 @@ button:hover {
         width: 80%;        /* napit leveys */
     }
 
-.btn-container {
-    display: flex;
-    flex-direction: row; /* riville */
-    flex-wrap: wrap;     /* jos tila loppuu, napit voivat mennä seuraavalle riville */
-    justify-content: center;
-    gap: 10px;           /* vähän tilaa nappien väliin */
-}
+    .btn-container {
+        display: flex;
+        flex-direction: row; /* riville */
+        flex-wrap: wrap;     /* jos tila loppuu, napit voivat mennä seuraavalle riville */
+        justify-content: center;
+        gap: 10px;           /* vähän tilaa nappien väliin */
+    }
 
     }
 }
+
 
 
 
