@@ -47,7 +47,7 @@ button:hover {
 
 
 /* ========== Puhelimet jippiii ========== */
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
     label {
         font-size: 20px;   
     }
@@ -69,4 +69,5 @@ button:hover {
         align-items: center;
     }
 }
+
 
