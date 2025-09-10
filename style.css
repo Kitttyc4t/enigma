@@ -59,7 +59,7 @@ button:hover {
 
     button {
         padding: 8px 16px; /*  pienempi nappi */
-        margin: 5px 0;     /* napit alle*/
+        
         width: 80%;        /* napit leveys */
     }
 
@@ -69,5 +69,6 @@ button:hover {
         align-items: center;
     }
 }
+
 
 
