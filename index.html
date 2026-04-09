@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Enigma</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="icon" href="enigma.png" type="image/png">
+
+</head>
+
+
+
+<body>
+
+<h2>Bypass any message regulation.</h2>
+
+<label for="message">Text</label>
+
+<textarea id="message"></textarea>
+
+
+
+<label for="key">Key</label>
+
+<div class="keyContainer">
+
+<input
+type="password"
+id="key"
+placeholder="Secret key"
+autocomplete="off"
+spellcheck="false"
+>
+
+<button type="button" id="toggleKey">show</button>
+
+</div>
+
+
+
+<div class="btn-container">
+
+<button type="button" id="encryptBtn">Encrypt</button>
+
+<button type="button" id="decryptBtn">Decrypt</button>
+
+<button type="button" id="copyBtn">Copy</button>
+
+<button type="button" id="clearBtn">Clear</button>
+
+</div>
+
+
+
+<label for="output">Outcome</label>
+
+<textarea id="output" readonly></textarea>
+
+
+
+<script>
+
+document.getElementById("toggleKey").addEventListener("click", () => {
+
+const field = document.getElementById("key");
+
+const btn = document.getElementById("toggleKey");
+
+if (field.type === "password") {
+
+field.type = "text";
+btn.textContent = "hide";
+
+}
+
+else {
+
+field.type = "password";
+btn.textContent = "showw";
+
+}
+
+});
+
+</script>
+
+
+
+<script src="script.js" defer></script>
+
+</body>
+
+</html>
