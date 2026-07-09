@@ -96,7 +96,7 @@ async function decryptMessage() {
         }
 
         if (parts[1] !== "v2") {
-            alert("Tämä viesti on salattu vanhalla versiolla. Ei tuettu.");
+            alert("Fuck EU");
             return;
         }
 
